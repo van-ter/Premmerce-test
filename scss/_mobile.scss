@@ -1,0 +1,67 @@
+@media screen and (max-width: 840px)  {
+  .container{
+    width: 100%;
+    padding: 0px 10px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  #menu{
+    li {
+      margin-left: 15px;
+      a{
+        font-size: 14px;
+      }
+    }
+  }
+  .info-content{
+    .news-block{
+      display: block;
+    }
+    .content-img{
+      width: 100%;
+    }
+    .content-info{
+      width: 100%;
+    }
+
+    .list-advantages {
+      margin: auto;
+      width: 400px;
+      .advantages{
+        width: 50%;
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+  header{
+    .container{
+      display: block;
+      text-align: center;
+    }
+    .logo{
+      display: inline-block;
+    }
+    #menu{
+      display: flex;
+      justify-content: space-around;
+      li{
+        margin-left: 0;
+      }
+    }
+  }
+  .info-content {
+    .list-advantages {
+      margin: auto;
+      width: 300px;
+      .advantages {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+}
